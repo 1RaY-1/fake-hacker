@@ -3,10 +3,12 @@ A program to impress your friends as if you were a "hacker" from a hollywood mov
 ### What exactly it does
 Installs needed packages, then it opens terminal (or konsole if your on kde)
 Runs tmux, splits window in 4 panes and in each one run a random text based program from the list.
+
 The sample programs are just system monitors or ip monitors or just 'tree /' command, so it looks cool.
 
 ### Packages/Sample programs
 These packages need to be installed on your system before running fake-hacker.py: python3, python3-dev, python3-pip
+
 These packages will be installed automatically when your run fake-hacker.py (need root perm):
 tmux
 htop
