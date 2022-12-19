@@ -20,5 +20,9 @@ glances
 
 When i fisnished this, I realised that someone's already written this type of program lol.
 
+### Note
+If your OS doesnt use apt, dnf or zypper, install all needed packages by yourself and in the script remove lines: 126 and 13-27
+
+### Screenshot
 
 ![f1](https://user-images.githubusercontent.com/78962948/208488486-7b10f396-cdbe-4f05-8f51-3ed28f29d2cb.png)
