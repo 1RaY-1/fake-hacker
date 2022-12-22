@@ -30,4 +30,4 @@ If this program throws an error saying "Your package manager isn't supported", i
 
 
 
-When i fisnished this, I realised that someone's already written this type of program lol.
+When i fisnished this, I found that someone's already written this type of program lol.
