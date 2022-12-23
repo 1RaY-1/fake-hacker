@@ -19,7 +19,18 @@ top
 nmon
 glances
 
+### Download/Usage
+```
+1? - To Download this from github:
+    git clone https://github.com/1RaY-1/fake-hacker
 
+2? Install needed python modules to run this:
+    cd fake-hacker/
+    pip3 install -r requierements.txt
+    
+  And run this program:
+    python3 fake-hacker.py
+```
 
 ### Note
 If this program throws an error saying "Your package manager isn't supported", install all needed packages by yourself and in the script remove lines: 126 and 13 to 27
