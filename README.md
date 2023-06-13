@@ -32,8 +32,6 @@ These packages will be installed automatically when your run fake-hacker.py (nee
     python3 fake-hacker.py
 ```
 
-### Note
-If this program throws an error saying "Your package manager isn't supported", install all needed packages by yourself and in the script remove lines: 126, 13-27
 
 ### Screenshot
 
