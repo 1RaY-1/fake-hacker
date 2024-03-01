@@ -8,7 +8,9 @@ from time import sleep
 try:
     import pyautogui
 except ImportError:
-    exit("Missing module: pyautogui\nType: 'pip3 install pyautogui' to install it")
+    print("Missing module: pyautogui\nType: 'pip3 install pyautogui' to install it")
+    import sys
+    sys.exit(1)
 
 # get the package manager
 # debian/ubuntu/etc... (apt)
@@ -24,7 +26,9 @@ elif int (os.system("command -v yum") ) == 0:
 elif int (os.system("command -v zypper") ) == 0: 
     pm = "zypper"
 else:
-    exit("Your package manager isn't supported!")
+    print("Your package manager isn't supported!")
+    import sys
+    sys.exit(1)
 
 class FakeHacker:
 
