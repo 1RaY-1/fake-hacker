@@ -6,6 +6,11 @@ Runs tmux, splits window in 4 panes and in each one runs a random text based pro
 
 The sample programs are just system monitors or ip monitors or just 'tree /' command, so it looks cool.
 
+### Supported OS
+This only supports **Linux**, with a Desktop Environment.
+
+***If you are using something like I3WM or QTILE that doesn't have DE integrated, then this script needs to be changed to work properly***
+
 ### Packages/Sample programs
 Make sure you have this installed before running fake-hacker.py: ```python3```, ```python3-dev```, ```python3-pip```
 
